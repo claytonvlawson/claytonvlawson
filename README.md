@@ -3,9 +3,10 @@
 Deaf engineer in Washington, DC. I build AI systems for Deaf people, and I run
 most of them on hardware I own.
 
-My last year of work has one shape: take a real problem in this community, build
+My last year of work has one shape: Take a real problem in this community, build
 the smallest system that actually solves it, and measure it honestly instead of
-demoing it once.
+demoing it once. I have experimented with creating a homelaab purely for the purpose
+of local AI and owning my data.
 
 **What I work on**
 
@@ -36,9 +37,9 @@ demoing it once.
 Commits say why, not what. Tests are part of the change, not a follow-up. If
 something is not finished, the README says so in a "what is not done" section
 rather than letting you discover it. Most of what I ship runs on a Jetson, a
-laptop, or a $6 VPS, so constraint-driven engineering is the default.
+laptop, or a  VPS, for constraint-driven engineering.
 
 **Elsewhere**
 
 - LearnWithClay.AI: https://learnwithclay.ai
-- Email: ClaytonVLawson@gmail.com
+- Email: Claytonvlawson@gmail.com
