@@ -1,11 +1,9 @@
 # Clayton Lawson
 
-Deaf engineer in Washington, DC. I build AI systems for Deaf people, and I run
-most of them on hardware I own.
-
-My last year of work has one shape: Take a real problem in this community, build
-the smallest system that actually solves it, and measure it honestly instead of
-demoing it once. I have experimented with creating a homelaab purely for the purpose
+Deaf engineer in Washington, DC. I build AI systems for Deaf folks and everyone else
+in between. My last year of work has one shape: Take a real problem in this community, build
+the smallest system that actually solves it, and scale it honestly instead of
+demoing it once. I have experimented with creating a homelab purely for the purpose
 of local AI and owning my data.
 
 **What I work on**
