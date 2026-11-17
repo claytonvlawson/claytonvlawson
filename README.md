@@ -10,14 +10,14 @@ of local AI and owning my data.
 
 - **Sign Language Recognition:** Pose landmarks in, gloss out. Trained up to a
   20B model on a single 8 GB Jetson, and shipped a frozen, signer-disjoint
-  evaluation harness: 39.78% top-1 across 250 ASL
+  evaluation harness: 39.77% top-1 across 250 ASL
   signs on five signers the model never saw, against 0.40% chance.
 - **Grounded Advisors.** A retrieval-augmented advisor for hearing parents of
   Deaf children, with citations that link the notes behind every answer and a
   deterministic crisis path that a ranking score cannot outvote. It is live, and answers in 18 languages. 
-- **Inference under Constraint.** Three models behind one `llama.cpp` router on
-  an 8 GB Orin Nano, with measured `ngl` ladders and page-reclaim instead of
-  guesses. Electricity for the whole setup runs about $7 a month.
+- **Inference under Constraint.** Five models behind one `llama.cpp` router on
+  an 8 GB Orin Nano, with measured `ngl` ladders, NVMe cold-load numbers, and
+  page-reclaim instead of guesses. Electricity for the whole setup runs about $7 a month.
 
 **Repositories worth your time**
 
@@ -26,7 +26,8 @@ of local AI and owning my data.
 | [sign-stack](https://github.com/claytonvlawson/sign-stack) | ASL recognition end to end, with a frozen signer-disjoint eval, CI, and one-command reproduction |
 | [kb-advisor](https://github.com/claytonvlawson/kb-advisor) | Template RAG advisor: drop in client PDFs, get a cited, safety-routed API. 66 tests, no model calls in the suite |
 | [learnwithclayparentadvisor](https://github.com/claytonvlawson/learnwithclayparentadvisor) | The advisor's front end: AIM-era chat, 18 languages, 20 Playwright tests running under the deploy's CSP |
-| [jetson-orin-nano-models](https://github.com/claytonvlawson/jetson-orin-nano-models) | How three GGUF models fit in 8 GB, with the numbers and the traps written down |
+| [jetson-orin-nano-models](https://github.com/claytonvlawson/jetson-orin-nano-models) | How five GGUF models fit in 8 GB, with the numbers, the traps, and a correction pass written down |
+| [jetson-brain](https://github.com/claytonvlawson/jetson-brain) | The RAG agent and parent advisor that runs entirely on the Jetson: BM25 retrieval, eval harness, 3B fine-tune pipeline |
 | [neuron-steering-explorer](https://github.com/claytonvlawson/neuron-steering-explorer) | Steering-first neuron explorer for Qwen3.5-4B, derived from an upstream fork and credited |
 
 **How I work**
